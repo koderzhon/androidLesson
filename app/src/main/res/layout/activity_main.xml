@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/numbers_id"
+            android:text="Numbers"
+            style="@style/textview_style"
+
+            />
+        <TextView
+            android:id="@+id/family_id"
+            android:text="Family"
+            style="@style/textview_style"
+            />
+        <TextView
+            android:id="@+id/colors_id"
+            android:text="Colors"
+            style="@style/textview_style"
+            />
+        <TextView
+            android:id="@+id/phrases_id"
+            android:text="Phrases"
+            style="@style/textview_style"
+            />
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

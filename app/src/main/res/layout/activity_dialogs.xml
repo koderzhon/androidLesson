@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="alertDialog"
+        android:text="Alert dialog" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="simpleDialog"
+        android:text="Simple dialog" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="singleChoiceDialog"
+        android:text="Single choice dialog" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="datePicker"
+        android:text="Date picker" />
+
+    <Button
+        android:id="@+id/buttenToTabActivi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TabAc"
+        android:onClick="buttenToTabActiviOnCklick"/>
+</LinearLayout>
