@@ -22,7 +22,6 @@ public class DialogActivity extends AppCompatActivity {
         getSupportActionBar().setHomeButtonEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         setTitle("Dialogs");
-
     }
 
     public void datePicker(View view) {
